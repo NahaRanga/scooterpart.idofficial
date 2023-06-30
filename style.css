@@ -1,0 +1,102 @@
+/* style.css */
+
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  background-color: #fe9d01;
+  padding: 0px;
+}
+
+header .container {
+  max-width: 480px;
+  margin: 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+header .logo img {
+  height: 100px;
+}
+
+nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+nav ul li {
+  display: inline;
+  margin-left: 10px;
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: #333;
+}
+header h1 {
+  margin: 0;
+}
+
+section#hero {
+    background-image: url('bg\ beranda\ 1.3.png');
+    background-size: cover;
+    color: orange;
+    padding: 200px;
+    text-align: center;
+    max-width: 100%;
+  }
+  
+.btn {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: #333;
+  color: #fff;
+  text-decoration: none;
+  align: center;
+}
+
+section#produk {
+  padding: 50px;
+}
+
+.container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 20px;
+    max-width: 900px;
+    margin: 0 auto;
+  }
+
+  .item {
+    background-color: #fe9d0149;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  .item img {
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+    margin-bottom: 10px;
+  }
+  
+footer {
+    background-color: #fe9d01;
+    padding: 20px;
+    text-align: center;
+}
+
+.social-media a {
+    display: inline-block;
+    margin: 0 10px;
+}
+
+.social-media img {
+    size-adjust: 20px;
+    height: 30px;
+}
